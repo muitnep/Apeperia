@@ -1,0 +1,49 @@
+.diferentials {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.diferentials__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.diferentials__item {
+    max-width: 350px;
+
+    box-sizing: border-box;
+
+    background-repeat: no-repeat;
+
+    padding: .5rem 0 1rem 5rem;
+
+    margin: 0;
+}
+
+.diferentials__item--time {
+    background-image: url(../img/icone-relogio.png);
+
+}
+.diferentials__item--focus {
+    background-image: url(../img/icone-dinheiro.png);
+
+}
+
+.diferentials__item--specialists {
+    background-image: url(../img/icone-quimica.png);
+
+}
+
+.item__title {
+    color: var(--dark-grey);
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+
+    margin-bottom: 1.5rem;
+}
+
+.item__text {
+    line-height: normal;
+}
