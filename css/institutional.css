@@ -45,7 +45,7 @@
 }
 
 .institutional__contact-email {
-    color: var(--font-grey);
+    color: var(--font-link);
     text-decoration: underline;
     display: block;
 }

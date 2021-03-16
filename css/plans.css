@@ -1,5 +1,5 @@
 .plans {
-    background-color: var(--dark-grey);
+    background-color: var(--medium-grey);
     
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -46,7 +46,7 @@
 
     margin-bottom: .5rem;
 
-    border-bottom: 1px solid var(--azul-claro);
+    border-bottom: 1px solid var(--light-blue);
 }
 
 .card__content {
@@ -63,7 +63,7 @@
 }
 
 .card__text {
-    color: var(--fonte-cinza);
+    color: var(--font-grey);
     line-height: 28px;
 }
 
